@@ -38,3 +38,7 @@ void InitUploadCheckHook() {
 // Make sure to use 
 // InitUploadCheckHook();
 In your scanning function or this will not work!
+For example 
+void mainthread() {
+	InitUploadCheckHook();
+	// your code here
